@@ -58,7 +58,7 @@ int main(int argc, const char *argv[]) {
 
     torch::jit::script::Module module = torch::jit::load(argv[1]);
     std::cout << "== Switch to GPU mode" << std::endl;
-//  to GPU
+    // to GPU
     module.to(at::kCUDA);
 
     std::cout << "== ResNet50 loaded!\n";
@@ -108,4 +108,5 @@ int main(int argc, const char *argv[]) {
             std::cout << "Can't load the image, please check your path." << std::endl;
         }
     }
+    return 0;
 }
