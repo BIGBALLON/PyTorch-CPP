@@ -4,6 +4,7 @@
 
 This demo will demonstrate how to use LibTorch to build your C++ application.
 
+**[UPDATE 2019/01/18]** : Init the repo, test with PyTorch1.0.  
 **[UPDATE 2020/02/22]** : Thanks for [Ageliss](https://github.com/Ageliss) and his [PR](https://github.com/BIGBALLON/PyTorch-CPP/pull/4), which update this demo to fit LibTorch1.4.0 and OpenCV4.0.  
 **[UPDATE 2020/04/15]** : Retest this tutorial with **OpenCV4.3**/**PyTorch1.4**/**LibTorch1.4**, update readme for beginner.  
 **[UPDATE 2020/04/25]** : Update ``CMakeLists.txt`` to fit **C++14,** retest with **CUDA10.2**/**PyTorch1.5**/**LibTorch1.5**.  
